@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+body{
+    background: url(codioful-formerly-gradienta-G084bO4wGDA-unsplash.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+height: 50vh;
+align-items: center;
+margin-top: 10%;
+}
+.stop{
+background-color: white;
+padding: 30px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 4px;
+}
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+#start{
+    color: white;
+
+
+
+    background-color: black;
+}
+button{
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+#stop{
+    background-color: red;
+    color: white;
+    border:1px solid red;
+}
+#reset{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
